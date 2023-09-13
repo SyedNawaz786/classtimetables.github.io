@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function display()
+        {
+            document.getElementById("img").src="syed.jpg"
+            document.getElementById("display").innerHTML="syed"
+        }
+        function display1()
+        {
+            document.getElementById("display").innerHTML="Welcome Nawaz"
+        }
+        
+
+    </script>
+</head>
+<body>
+    <h1 id="display">Welcome Guest</h1>
+    <img id="img" src="sru.jpg" width="100" height="100"/>
+    <button type="button" onclick="display()">Syed</button>
+    <button type="button" onclick="display1()">Nawaz</button>
+</body>
+</html>
